@@ -28,10 +28,10 @@ const optionsStock = {
 };
 
 const Nasdaq = () => (
-  <div className="card">
+  <div>
     <div className="header">
-      <h4>NASDAQ: AAPL</h4>
-      <p className="category">Line Chart with Points</p>
+      <h4>Umbral de rentabilidad</h4>
+      <p className="category">Gráfico de punto muerto o umbral de rentabilidad</p>
     </div>
     <div className="content">
       <ReactChartist data={dataStock} options={optionsStock} type="Line" className="ct-chart" />

@@ -36,8 +36,8 @@ const EmailStatistic = () => {
 
     <div className="card">
       <div className="header">
-        <h4 className="title">BWO</h4>
-        <p className="category">Sprint #1</p>
+        <h4 className="title">Email Statistics</h4>
+        <p className="category">Last Campaign Performance</p>
       </div>
       <div className="content">
 
@@ -48,18 +48,18 @@ const EmailStatistic = () => {
       <div className="footer">
         <div className="legend">
           <div className="item">
-            <i className="fa fa-circle text-info"></i> Concepción
+            <i className="fa fa-circle text-info"></i> Open
           </div>
           <div className="item">
-            <i className="fa fa-circle text-danger"></i> Desarrollo
+            <i className="fa fa-circle text-danger"></i> Bounce
           </div>
           <div className="item">
-            <i className="fa fa-circle text-warning"></i> Review
+            <i className="fa fa-circle text-warning"></i> Unsubscribe
           </div>
         </div>
         <hr />
         <div className="stats">
-          
+          <i className="fa fa-clock-o"></i> Campaign sent 2 days ago
           </div>
       </div>
     </div>

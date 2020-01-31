@@ -1,3 +1,17 @@
+.container-project-dashboard{
+  padding: 24px 0px;
+  width: 30% !important;
+  margin-right: 20px;
+  margin-left: 20px;
+  box-shadow: 0 10px 15px -6px #777;
+  .container-box-info{
+    margin-bottom: 25px !important;
+    width: 80% !important;
+  }
+  .card{
+    border: none;
+  }
+}
 .card {
   border: 1px solid $light-gray;
   border-radius: 4px;
@@ -6,7 +20,7 @@
   .title {
     margin: 0;
     color: $primary-color;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 10px;
   }
   .header {
@@ -23,13 +37,13 @@
       color: darken($primary-color, 10);
       letter-spacing: 1px;
       line-height: 17px;
-      font-weight: 300;
+      font-weight: 400;
     }
     p {
       color: $black-color;
       font-size: 12px;
       line-height: 17px;
-      font-weight: 300;
+      font-weight: 400;
     }
   }
   .content {

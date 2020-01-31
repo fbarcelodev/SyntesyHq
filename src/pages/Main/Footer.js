@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
   <footer className="footer">
     <div className="container-fluid">
-      <nav className="pull-left">
+      {/* <nav className="pull-left">
         <ul>
           <li>
             <a href="#">
@@ -26,9 +26,9 @@ const Footer = () => (
                   </a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
       <p className="copyright pull-right">
-        © 2017 <a href="http://jslancer.com">JSLancer</a>, made with love for a better web
+        © 2020 <a href="http://jslancer.com">Syntesy Digital</a>
       </p>
     </div>
   </footer>

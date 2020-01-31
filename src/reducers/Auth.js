@@ -1,6 +1,6 @@
 const defaultUserInfo = {
   name: 'Demo User',
-  image: 'http://demos.creative-tim.com/light-bootstrap-dashboard-pro/assets/img/default-avatar.png'
+  image: 'https://docs.atlassian.com/aui/8.4.1/docs/images/avatar-person.svg'
 };
 
 export default function reducer(state = {

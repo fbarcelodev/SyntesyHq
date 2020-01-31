@@ -3,7 +3,7 @@ import ReactChartist from 'react-chartist';
 import Chartist from 'chartist';
 
 const dataPerformance = {
-  labels: ['6pm','9pm','11pm', '2am', '4am', '8am', '2pm', '5pm', '8pm', '11pm', '4am'],
+  labels: ['01','02','03', '04', '05', '06', '07', '08', '09', '10', '11','12','13','14', '15', '16', '17', '18', '19', '20', '21', '22'],
   series: [
     [1, 6, 8, 7, 4, 7, 8, 12, 16, 17, 14, 13]
   ]
@@ -25,10 +25,10 @@ const optionsPerformance = {
 };
 
 const PerformanceChart = () => (
-  <div className="card">
+  <div>
     <div className="header">
-      <h4>24 Hours Performance</h4>
-      <p className="category">Line Chart</p>
+      <h4>Speed</h4>
+      <p className="category">Gráfico de velocidad con puntos</p>
     </div>
     <div className="content">
       <ReactChartist data={dataPerformance} options={optionsPerformance} type="Line" className="ct-chart" />
